@@ -65,6 +65,16 @@ define({
           attribute: 'title',
           placeholder: 'Enter a title'
         },
+        username: {
+          label: 'Username',
+          attribute: 'username',
+          placeholder: 'user'
+        },
+        data: {
+          label: 'data',
+          attribute: 'data',
+          placeholder: 'data'
+        },
         description: {
           label: 'Description',
           attribute: 'description',

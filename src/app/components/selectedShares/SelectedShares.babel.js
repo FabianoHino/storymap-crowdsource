@@ -81,6 +81,7 @@ export default class SelectedShares extends React.Component {
           idField={this.props.idField}
           primaryField={this.props.primaryField}
           secondaryField={this.props.secondaryField}
+          usernameField={this.props.usernameField}
           vettedField={this.props.vettedField}
           media={this.props.media}
           thumbnailUrlPrepend={this.props.thumbnailUrlPrepend}

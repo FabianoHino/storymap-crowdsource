@@ -168,15 +168,33 @@ const defaultLayerDefinition = {
       domain: null,
       defaultValue: null
     },
-		{
-			name: 'Name',
-			type: 'esriFieldTypeString',
-			alias: 'Name',
-			domain: null,
-			editable: true,
-			nullable: true,
-			length: 256
-		},
+    {
+      name: 'Name',
+      type: 'esriFieldTypeString',
+      alias: 'Name',
+      domain: null,
+      editable: true,
+      nullable: true,
+      length: 256
+    },
+    {
+      name: 'Username',
+      type: 'esriFieldTypeString',
+      alias: 'Username',
+      domain: null,
+      editable: true,
+      nullable: true,
+      length: 256
+    },
+    {
+      name: 'Data',
+      type: 'esriFieldTypeString',
+      alias: 'Data',
+      domain: null,
+      editable: true,
+      nullable: true,
+      length: 10
+    },
 		{
 			name: 'Description',
 			type: 'esriFieldTypeString',

@@ -34,6 +34,24 @@ export const featureServiceDefaults = {
         placeholder: builderText.contribute.defaultForm.name.placeholder,
         validations: ['arcgisSupportedHtml']
       },
+      Username: {
+        required: true,
+        type: 'date',
+        fieldID: 'Username',
+        label: builderText.contribute.defaultForm.username.label,
+        attributeName: builderText.contribute.defaultForm.username.attribute,
+        placeholder: builderText.contribute.defaultForm.username.placeholder,
+        validations: ['arcgisSupportedHtml']
+      },
+      Data: {
+        required: true,
+        type: 'text',
+        fieldID: 'Data',
+        label: builderText.contribute.defaultForm.data.label,
+        attributeName: builderText.contribute.defaultForm.data.attribute,
+        placeholder: builderText.contribute.defaultForm.data.placeholder,
+        validations: ['arcgisSupportedHtml']
+      },
       LocationName: {
         required: true,
         type: 'location',
