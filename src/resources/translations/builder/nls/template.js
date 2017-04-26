@@ -70,15 +70,15 @@ define({
           attribute: 'username',
           placeholder: 'user'
         },
-        data: {
-          label: 'data',
-          attribute: 'data',
-          placeholder: 'data'
+        username: {
+          label: 'Photografer name',
+          attribute: 'username',
+          placeholder: 'Photografer name'
         },
-        description: {
-          label: 'Description',
-          attribute: 'description',
-          placeholder: 'Enter a description (200 words or fewer please)'
+        data: {
+          label: 'Date',
+          attribute: 'data',
+          placeholder: 'Date (dd/mm/yyyy)'
         },
         location: {
           label: 'Location',

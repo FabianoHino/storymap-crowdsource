@@ -36,7 +36,7 @@ export const featureServiceDefaults = {
       },
       Username: {
         required: true,
-        type: 'date',
+        type: 'text',
         fieldID: 'Username',
         label: builderText.contribute.defaultForm.username.label,
         attributeName: builderText.contribute.defaultForm.username.attribute,
@@ -45,7 +45,7 @@ export const featureServiceDefaults = {
       },
       Data: {
         required: true,
-        type: 'text',
+        type: 'date',
         fieldID: 'Data',
         label: builderText.contribute.defaultForm.data.label,
         attributeName: builderText.contribute.defaultForm.data.attribute,

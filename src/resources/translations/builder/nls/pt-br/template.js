@@ -63,6 +63,16 @@ define({
         "attribute": "título",
         "placeholder": "Digite um título"
       },
+      "username": {
+        "label": 'Nome do fotográfo',
+        "attribute": 'username',
+        "placeholder": 'Entre com o nome do fotográfo'
+      },
+      "data": {
+        "label": 'Data da fotografia',
+        "attribute": 'data',
+        "placeholder": 'Entre com a data da fotografia (dd/mm/aaaa)'
+      },
       "description": {
         "label": "Descrição",
         "attribute": "descrição",
